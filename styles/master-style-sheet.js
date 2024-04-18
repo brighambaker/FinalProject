@@ -3,8 +3,8 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+    // HomeScreen styles
     addButton: {
-        
         backgroundColor: 'purple',  
         padding: 10,
         borderRadius: 5,
@@ -77,43 +77,8 @@ const styles = StyleSheet.create({
         fontSize: 18,
         marginBottom: 8,
     },
-    modalView: {
-        margin: 20,
-        backgroundColor: "white",
-        borderRadius: 20,
-        padding: 35,
-        alignItems: "center",
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2
-        },
-        shadowOpacity: 0.25,
-        shadowRadius: 4,
-        elevation: 5
-    },
-    modalText: {
-        marginBottom: 15,
-        textAlign: "center"
-    },
-    modalImage: {
-        width: 300,
-        height: 200,
-        marginBottom: 15,
-    },
-    buttonClose: {
-        backgroundColor: "#2196F3",
-        borderRadius: 20,
-        padding: 10,
-        elevation: 2
-    },
-    textStyle: {
-        color: "white",
-        fontWeight: "bold",
-        textAlign: "center"
-    },
     // modal styles
-        centeredView: {
+    centeredView: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
@@ -154,7 +119,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#2196F3",
         borderRadius: 20,
         padding: 10,
-        width: '20%',
+        width: '25%',
         alignItems: 'center',
         marginRight: 10,
         marginLeft: 10,
@@ -163,7 +128,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#FF4136',
         padding: 10,
         borderRadius: 20,
-        width: '20%',
+        width: '25%',
         alignItems: 'center',
         marginLeft: 10,
         marginRight: 10,
