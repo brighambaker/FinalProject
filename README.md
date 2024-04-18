@@ -25,7 +25,8 @@ This project relies on the following Expo and React Native libraries:
 - **'expo'**: The framework and platform for universal React applications.
 - **'expo-av'**: Provides audio and video playback and recording functionalities.
 - **'react-native'**: The library used to develop the mobile application's UI.
-- **'expo-sqlite'**: The required library for utilizating the SQLite database
+- **'expo-sqlite'**: The required library for utilizating the SQLite database.
+- **'expo-splash-screen'**: Required library for SplashScreen async handling.
 
 Ensure all dependencies are installed using npm/npx
 
