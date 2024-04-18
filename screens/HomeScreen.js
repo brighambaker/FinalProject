@@ -1,7 +1,7 @@
 // HomeScreen.js
 
 import React, { useState, useEffect } from 'react';
-import { View, TextInput, Button, FlatList, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, TextInput, Image, FlatList, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Audio } from 'expo-av';
 import { addWebsite, fetchWebsites, deleteWebsite } from '../database/db';
 import ModalDialogue from '../components/ModalDialogue';
@@ -85,6 +85,10 @@ export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Website Database</Text>
+            <Image
+                style={styles.titleImage}
+                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/2/20/HelloAN.png' }}
+            />
             <TextInput
                 placeholder="Enter keyword"
                 value={keyword}

@@ -21,10 +21,6 @@ export default function ModalDialogue({ item, visible, onClose, onDelete }) {
                     { /*Display the keyword and URL of the item.*/}
                     <Text style={styles.modalText}>Keyword: {item.keyword}</Text>
                     <Text style={styles.modalText}>URL: {item.url}</Text>
-                    <Image
-                        style={styles.modalImage}
-                        source={{ uri: item.url }}
-                    />
                     {/*Container for buttons.*/}
                     <View style={styles.buttonContainer}>
                         {/*Close button with event handler.*/}

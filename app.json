@@ -2,7 +2,7 @@
   "expo": {
     "name": "FinalProject",
     "slug": "FinalProject",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "ca.brighambaker.FinalProject",
-      "buildNumber": "1.0.1"
+      "buildNumber": "1.0.2"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +25,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "ca.brighambaker.FinalProject",
-      "versionCode": 10001
+      "versionCode": 10002
     },
     "web": {
       "favicon": "./assets/favicon.png"
